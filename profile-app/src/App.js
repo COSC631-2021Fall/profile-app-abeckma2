@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Commerce from '@chec/commerce.js';
+import Commerce from "@chec/commerce.js";
 
 function App() {
-  const commerce=new Commerce('pk_34213fc645bbd971c6fbe34f2189fb62e6a32eb61a00b');
+  const commerce=new Commerce(process.env.REACT_APP_CHEC_PUBLIC_KEY,true);
   return (
     <div className="App">
       <header className="App-header">
