@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Commerce from "@chec/commerce.js";
+import Commerce from '@chec/commerce.js';
 
 function App() {
   const commerce=new Commerce(process.env.REACT_APP_CHEC_PUBLIC_KEY,true);
