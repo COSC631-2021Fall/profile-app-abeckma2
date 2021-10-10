@@ -15,11 +15,11 @@ function Navbar()
         {
             url:"module3",
             name:"Mod3"
-        },
+        }/*,
         {
             url:"module4",
             name:"Mod4"
-        }
+        }*/
     ];
     let menu=links.map((path)=>{
         return(

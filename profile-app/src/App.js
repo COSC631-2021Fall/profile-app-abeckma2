@@ -48,8 +48,6 @@ function App() {
             <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
             <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
           </Switch>
-        </BrowserRouter>
-        <BrowserRouter>
           <Switch>
             <Route path={["/module4/:id", "/module4"]}><Module4 /></Route>
           </Switch>
