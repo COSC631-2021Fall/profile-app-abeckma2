@@ -28,7 +28,7 @@ function App() {
   }
   useEffect(
     ()=>{
-      window.addEventListener("keydown",handleKeydown);
+      window.addEventListener("keydown",handleKeyDown);
     }
   );
   return (
