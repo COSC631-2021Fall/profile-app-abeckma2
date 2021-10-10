@@ -4,6 +4,7 @@ import {Module2} from "./components/module2";
 import {Module3} from "./components/module3";
 import {Module5} from "./components/module1";
 import Module4 from "./components/module4";
+import {lastModule} from "./components/module4";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
 import {useEffect, useState} from "react";
 import Navbar from "./components/navbar";
@@ -55,6 +56,7 @@ function App() {
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
         <Module4 />
+        <lastModule />
       </main>
       </div>
     </div>
