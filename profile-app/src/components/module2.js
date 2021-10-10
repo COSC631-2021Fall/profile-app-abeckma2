@@ -5,6 +5,7 @@ function Module2({par})
     return(
     <div>
           <h2>Module2:Git {id}</h2>
+          <p>we are using git</p>
           {id && <p>we are using git</p>}
     </div>
     );
