@@ -5,7 +5,7 @@ export function Module3({par})
     return(
     <div>
           <h2>Module3:Git {id}</h2>
-          {id && <p>Git is a distributed version control system.</p>}
+          {id && <h3>Git is a distributed version control system.</h3>}
     </div>
     );
 }
