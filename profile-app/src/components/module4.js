@@ -20,4 +20,4 @@ function LastModule()
     );
 }
 export default Module4;
-export {lastModule};
+export {LastModule};
