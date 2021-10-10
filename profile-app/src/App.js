@@ -44,7 +44,7 @@ function App() {
         <BrowserRouter>
           <Route path={["/module1", "/module1/:id"]}><Module1 /></Route>
           <Route path={["/module2","/module2/:id"]}><Module2 /></Route>
-          <Route path={["/module3","/module3/:id"]}><Module2 /></Route>
+          <Route path={["/module3","/module3/:id"]}><Module3 /></Route>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
       </main>
