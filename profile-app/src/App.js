@@ -15,6 +15,7 @@ function App() {
   const useStateArray=["white","#eeeeee","powderblue"];
   const colorArray=["black","#202A44","brown"];
   const[themeId,setThemeId]=useState(0);
+  const[colorId,setColorId]=useState(0);
   const switchTheme=()=>{
     setThemeId((id)=>(id+1)%3);
   }
