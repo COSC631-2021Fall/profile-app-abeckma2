@@ -8,4 +8,4 @@ function Module2({par})
           {id&&<p>Gitisadistributedversioncontrolsystem.</p>}
           </div>);
 }
-export default Module1;
+export default Module2;
