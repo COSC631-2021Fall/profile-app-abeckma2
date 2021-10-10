@@ -6,6 +6,6 @@ function Module2({par})
       (<div>
           <h2>Module2:Git{id}</h2>
           {id&&<p>Gitisadistributedversioncontrolsystem.</p>}
-          </div>);
+       </div>);
 }
 export default Module2;

@@ -38,8 +38,8 @@ function App() {
       </header>
       <main>
         <BrowserRouter>
-          <Route path="/module1/:id"><Module1 /></Route>
-          <Route path="/module2/:id"><Module2 /></Route>
+          <Route path="/module1/:id">click here for mod1<Module1 /></Route>
+          <Route path="/module2/:id">click here for mod2<Module2 /></Route>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
       </main>
