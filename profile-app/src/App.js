@@ -40,7 +40,8 @@ function App() {
     }
   );
   return (
-    <div style={{color:colorArray[colorId]},{backgroundColor:useStateArray[themeId]}} className="App">
+    <div style={{backgroundColor:useStateArray[themeId]}} className="App">
+      <div style={{color:colorArray[colorId]}}>
       <header>
         <Navbar />
         <h1>MY REACT APP</h1>
@@ -57,6 +58,7 @@ function App() {
         <div><button onClick={switchTheme}>button</button></div>
         <Module4 />
       </main>
+      </div>
     </div>
   );
 }
