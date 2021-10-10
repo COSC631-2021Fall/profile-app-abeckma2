@@ -1,5 +1,5 @@
 import {useParams} from "react-router";
-export function Module3({par})
+function Module3({par})
 {
     let{id}=useParams();
     return(
