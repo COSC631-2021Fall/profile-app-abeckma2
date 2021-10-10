@@ -15,6 +15,7 @@ function Module5({par})
     return(
     <div>
           <h2>Module5:Git {id}</h2>
+          <p>checking to see if 2 components work in 1 js file.</p>
           {id && <p>checking to see if 2 components work in 1 js file.</p>}
     </div>
     );
