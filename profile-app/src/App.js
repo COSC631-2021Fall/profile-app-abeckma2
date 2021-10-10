@@ -32,7 +32,7 @@ function App() {
     }
   );
   return (
-    <div className="App">
+    <div style={{backgroundColor:useStateArray[themeId]}} className="App">
       <header>
         <Navbar />
       </header>
