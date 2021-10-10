@@ -2,7 +2,7 @@
 import Module1 from "./components/module1";
 import Module2 from "./components/module2";
 import Module3 from "./components/module3";
-import Module4 from "./components/module4";
+import {Module4} from "./components/module4";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
 import {useEffect, useState} from "react";
 import Navbar from "./components/navbar";
