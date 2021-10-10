@@ -49,9 +49,6 @@ function App() {
             <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
             <Route path={["/module4/:id", "/module4"]}><Module4 /></Route>
           </Switch>
-          <Switch>
-            <Route path={["/module4/:id", "/module4"]}><Module4 /></Route>
-          </Switch>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
         <Module4 />
