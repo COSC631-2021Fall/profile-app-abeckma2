@@ -15,6 +15,10 @@ function Navbar()
         {
             url:"module3",
             name:"Mod3"
+        },
+        {
+            url:"module5",
+            name:"Mod5"
         }
     ];
     let menu=links.map((path)=>{
