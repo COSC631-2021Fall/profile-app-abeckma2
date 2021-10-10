@@ -13,7 +13,7 @@ function App() {
   const commerce=new Commerce('pk_34213fc645bbd971c6fbe34f2189fb62e6a32eb61a00b');
   commerce.products.list().then(response=>console.log(response.data));
   const useStateArray=["white","tomato","powderblue"];
-  const array=["/module1","/module2","/module3"];
+  const array=["black","navy blue","brown"];
   const[themeId,setThemeId]=useState(0);
   const switchTheme=()=>{
     setThemeId((id)=>(id+1)%3);
@@ -36,7 +36,7 @@ function App() {
     }
   );
   return (
-    <div style={{backgroundColor:useStateArray[themeId]}} className="App">
+    <div style={{color:useStateArray[themeId]}} className="App">
       <header>
         <Navbar />
         <h1>MY REACT APP</h1>
