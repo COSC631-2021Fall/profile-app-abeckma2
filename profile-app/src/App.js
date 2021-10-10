@@ -2,6 +2,7 @@
 import Module1 from "./components/module1";
 import Module2 from "./components/module2";
 import Module3 from "./components/module3";
+import Module4 from "./components/module4";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
 import {useEffect, useState} from "react";
 import Navbar from "./components/navbar";
@@ -45,6 +46,7 @@ function App() {
           <Route path={["/module1", "/module1/:id"]}><Module1 /></Route>
           <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
           <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
+          <Route path={["/module4", "/module4/:id"]}><Module4 /></Route>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
       </main>
