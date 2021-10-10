@@ -43,10 +43,12 @@ function App() {
       </header>
       <main>
         <BrowserRouter>
-          <Route path={["/module1", "/module1/:id"]}><Module1 /></Route>
-          <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
-          <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
-          <Route path={["/module4", "/module4/:id"]}><Module4 /></Route>
+          <Switch>
+            <Route path={["/module1", "/module1/:id"]}><Module1 /></Route>
+            <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
+            <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
+            <Route path={["/module4", "/module4/:id"]}><Module4 /></Route>
+          </Switch>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
       </main>
