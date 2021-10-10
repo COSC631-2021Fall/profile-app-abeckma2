@@ -36,7 +36,7 @@ function App() {
     }
   );
   return (
-    <div style={{color:useStateArray[themeId]}} className="App">
+    <div style={{color:useStateArray[array]}} className="App">
       <header>
         <Navbar />
         <h1>MY REACT APP</h1>
