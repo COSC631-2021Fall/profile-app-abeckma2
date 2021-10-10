@@ -40,7 +40,7 @@ function App() {
     }
   );
   return (
-    <div style={{backgroundColor:useStateArray[themeId]},{color:colorArray[colorId]}} className="App">
+    <div style={{color:colorArray[colorId]},{backgroundColor:useStateArray[themeId]}} className="App">
       <header>
         <Navbar />
         <h1>MY REACT APP</h1>
