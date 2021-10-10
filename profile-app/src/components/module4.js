@@ -9,4 +9,4 @@ function Module4({par})
     </div>
     );
 }
-export {Module4};
+export default Module4;
