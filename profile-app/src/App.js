@@ -12,7 +12,7 @@ import Commerce from "@chec/commerce.js";
 function App() {
   const commerce=new Commerce('pk_34213fc645bbd971c6fbe34f2189fb62e6a32eb61a00b');
   commerce.products.list().then(response=>console.log(response.data));
-  const useStateArray=["white","#000000","powderblue"];
+  const useStateArray=["white","#eeeeee","powderblue"];
   const colorArray=["black","#202A44","brown"];
   const[themeId,setThemeId]=useState(0);
   const[colorId,setColorId]=useState(0);
