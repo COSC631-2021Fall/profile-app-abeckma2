@@ -5,8 +5,8 @@ function Module2({par})
     return(
     <div>
           <h2>Module2:Git {id}</h2>
-          {id && <p>Gitisadistributedversioncontrolsystem.</p>}
+          {id && <p>we are using git</p>}
     </div>
     );
 }
-export {Module2};
+export {Module4};
