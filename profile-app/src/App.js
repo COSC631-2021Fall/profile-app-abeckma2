@@ -13,7 +13,7 @@ function App() {
   const commerce=new Commerce('pk_34213fc645bbd971c6fbe34f2189fb62e6a32eb61a00b');
   commerce.products.list().then(response=>console.log(response.data));
   const useStateArray=["white","tomato","powderblue"];
-  const colorArray=["black","navy blue","brown"];
+  const colorArray=["black","#202A44","brown"];
   const[themeId,setThemeId]=useState(0);
   const[colorId,setColorId]=useState(0);
   const switchTheme=()=>{
