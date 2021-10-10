@@ -47,15 +47,11 @@ function App() {
             <Route path={["/module1/:id", "/module1"]}><Module1 /></Route>
             <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
             <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
-            <Route path={["/module4", "/module4/:id"]}><Module4 /></Route>
           </Switch>
         </BrowserRouter>
         <BrowserRouter>
           <Switch>
-            <Route path={["/module1/:id", "/module1"]}><Module1 /></Route>
-            <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
-            <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
-            <Route path={["/module4", "/module4/:id"]}><Module4 /></Route>
+            <Route path={["/module4/:id", "/module4"]}><Module4 /></Route>
           </Switch>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
