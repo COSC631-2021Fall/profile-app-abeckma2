@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import Module1 from "./components/module1";
 import Module2 from "./components/module2";
-//import {BrowserRouter} from "react-router";
+import {BrowserRouter,Route,Switch} from "react-router-dom";
 import {useEffect, useState} from "react";
 import Navbar from "./components/navbar";
 import './App.css';
