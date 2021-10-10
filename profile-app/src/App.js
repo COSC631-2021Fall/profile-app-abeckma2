@@ -22,7 +22,6 @@ function App() {
     switch(event.key)
     {
       case "0":
-        setThemeId(parseInt(0));
       case "1":
       case "2":
       default:
