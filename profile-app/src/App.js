@@ -12,7 +12,7 @@ function App() {
   commerce.products.list().then(response=>console.log(response.data));
   const useStateArray=["white","tomato","powderblue"];
   const[themeId,setThemeId]=useState(0);
-  const switchButton=()=>{
+  const switchTheme=()=>{
     setThemeId((id)=>(id+1)%3);
   }
   const handleKeyDown=(event)=>
@@ -41,7 +41,7 @@ function App() {
           <Route path="/module1/:id"><Module1 /></Route>
           <Route path="/module2/:id"><Module2 /></Route>
         </BrowserRouter>
-        <div><button onClick={switchButton}>button</button></div>
+        <div><button onClick={switchTheme}>button</button></div>
       </main>
     </div>
   );
