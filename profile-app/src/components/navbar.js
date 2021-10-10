@@ -16,14 +16,14 @@ function Navbar()
     let menu=links.map((path)=>{
         return(
         <span>
-            <a href={link["url"]}>{path.name}</a>&nbsp;
+            <a href={path.url}>{path.name}</a>&nbsp;
         </span>
         );
     }
     );
     return(
     <div>
-        {links}
+        {menu}
         </div>
     );
 }
