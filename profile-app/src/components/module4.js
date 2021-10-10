@@ -1,5 +1,5 @@
 import {useParams} from "react-router";
-export function Module4({par})
+function Module4({par})
 {
     let{id}=useParams();
     return(
@@ -9,3 +9,4 @@ export function Module4({par})
     </div>
     );
 }
+export {Module4};
