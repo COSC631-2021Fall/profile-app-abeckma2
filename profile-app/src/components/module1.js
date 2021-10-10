@@ -9,4 +9,15 @@ function Module1({par})
     </div>
     );
 }
+function Module5({par})
+{
+    let{id}=useParams();
+    return(
+    <div>
+          <h2>Module5:Git {id}</h2>
+          {id && <p>checking to see if 2 components work in 1 js file.</p>}
+    </div>
+    );
+}
 export default Module1;
+export {Module5};

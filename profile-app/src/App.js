@@ -2,6 +2,7 @@
 import Module1 from "./components/module1";
 import {Module2} from "./components/module2";
 import {Module3} from "./components/module3";
+import {Module5} from "./components/module5";
 import Module4 from "./components/module4";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
 import {useEffect, useState} from "react";
@@ -49,7 +50,7 @@ function App() {
             <Route path={["/module1/:id", "/module1"]}><Module1 /></Route>
             <Route path={["/module2", "/module2/:id"]}><Module2 /></Route>
             <Route path={["/module3", "/module3/:id"]}><Module3 /></Route>
-            <Route path={["/module4/:id", "/module4"]}><Module4 /></Route>
+            <Route path={["/module5/:id", "/module5"]}><Module5 /></Route>
           </Switch>
         </BrowserRouter>
         <div><button onClick={switchTheme}>button</button></div>
